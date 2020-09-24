@@ -1,0 +1,60 @@
+.header {
+  background-image: linear-gradient(to bottom, rgb(200, 0, 0), red);
+  height: 70px;
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  z-index: 100;
+}
+.header__left {
+  display: flex;
+}
+.header__logo {
+  object-fit: contain;
+  max-width: 71px;
+}
+.header__title {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20px;
+  color: white;
+}
+.header__title > h1 {
+  /* font-family: "Pacifico", cursive; */
+  /* font-family: "Great Vibes", cursive; */
+  font-family: "Roboto Slab", serif;
+  color: white;
+  font-weight: 100;
+  font-size: 45px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.header__right {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.header__nav {
+  display: flex;
+}
+.header__navitem > h3 {
+  font-family: "Lato", sans-serif;
+  color: white;
+  padding: 20px;
+}
+.header__icons {
+  margin: auto;
+  margin-right: 20px;
+}
+.header__icon {
+  position: relative;
+  right: 0;
+  color: white !important;
+  margin-top: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
