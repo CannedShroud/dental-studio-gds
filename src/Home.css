@@ -1,0 +1,65 @@
+.home {
+  width: 100%;
+  height: 100vh;
+}
+.home__body {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.home__image {
+  object-fit: contain;
+  overflow: auto;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 60;
+  z-index: -1;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  max-width: 100%;
+}
+.home__container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.home__landing {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.home__branding {
+  backdrop-filter: blur(5px);
+  height: 50%;
+  width: 50%;
+  margin: auto;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgba(255, 0, 0, 0.1); */
+  background-image: radial-gradient(
+    ellipse,
+    rgba(255, 0, 0, 0.6),
+    rgba(0, 0, 0, 0)
+  );
+  border-radius: 10px;
+}
+.home__branding > img {
+  object-fit: contain;
+  padding-bottom: 20px;
+}
+.home__branding > h1 {
+  color: rgb(255, 255, 255);
+  font-family: "Lato", sans-serif;
+  font-size: 90px;
+  text-align: center;
+}
+
+.home__branding > h3 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+}

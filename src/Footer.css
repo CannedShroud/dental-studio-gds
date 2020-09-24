@@ -1,0 +1,13 @@
+.footer {
+  background-image: linear-gradient(to top, rgb(200, 0, 0), red);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 70px;
+  display: flex;
+}
+
+.footer > h1{
+    margin: auto;
+    color: white;
+}
