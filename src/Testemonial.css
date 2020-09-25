@@ -1,7 +1,7 @@
 .testemonial {
   background-color: rgb(255, 211, 211);
   border-radius: 10px;
-  /* border: 2px solid red; */
+  border: 1px solid red;
   min-height: 100px;
   min-width: 200px;
   margin: 20px;
@@ -33,10 +33,13 @@
 
 .testemonial__body {
   display: flex;
+  overflow: hidden;
 }
 .testemonial__body > p {
   padding: 20px;
   padding-left: 0px;
+  word-wrap: break-word;
+  max-height: 200px;
 }
 
 .testemonial__treat {
@@ -46,6 +49,7 @@
 }
 
 .testemonial__image {
+  object-fit: contain;
   padding: 10px;
   margin: 10px;
   background-image: radial-gradient(
