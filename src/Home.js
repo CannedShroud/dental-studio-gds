@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import chair from "./chair2.jpg";
 import brandingLogo from "./cannon-dental.png";
 import Cards from "./Cards";
+import Testemonial from "./Testemonial";
 
 function Home() {
   return (
@@ -20,9 +21,20 @@ function Home() {
               <h3>Giving you a smile you're happy to show off</h3>
             </div>
           </div>
-            <div className="home__cards">
-              <Cards />
+          <div className="home__cards">
+            <Cards />
+          </div>
+          <div className="home__testemonials">
+            <div className="home__testemonialsTitle">
+              <h1>Testemonials</h1>
             </div>
+            <div className="home__testemonialCards">
+              <Testemonial />
+              <Testemonial />
+              <Testemonial />
+              <Testemonial />
+            </div>
+          </div>
         </div>
       </div>
       {/* <Footer /> */}
