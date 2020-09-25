@@ -7,6 +7,9 @@
   justify-content: space-between;
   flex-wrap: wrap;
   z-index: 100;
+  box-shadow: 0px 1px 5px #27272780;
+  -webkit-box-shadow: 0px 1px 5px #27272780;
+  -moz-box-shadow: 0px 1px 5px #27272780;
 }
 .header__left {
   display: flex;

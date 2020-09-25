@@ -7,9 +7,11 @@
   margin: 20px;
   max-height: 400px;
   max-width: 700px;
+  height: 100%;
 }
 
 .testemonial__container {
+  height: 100%;
   margin: 20px;
   display: flex;
   flex-direction: column;
@@ -45,7 +47,9 @@
 .testemonial__treat {
   padding: 10px;
   padding-left: 0;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  position: relative;
+  bottom: 0;
 }
 
 .testemonial__image {
