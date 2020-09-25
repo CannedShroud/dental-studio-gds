@@ -3,6 +3,7 @@ import { ContactMail, Face, Facebook, Room } from "@material-ui/icons";
 import React from "react";
 import "./Header.css";
 import logo from "./logo.png";
+import googleLogo from "./googleLogo.png";
 
 function Header() {
   return (
@@ -26,11 +27,20 @@ function Header() {
           </div>
         </div>
         <div className="header__icons">
-          <IconButton>
-            <Room className="header__icon" />
+          <IconButton
+            href="https://www.google.com/search?q=goa+dental+studio&oq=goa+&aqs=chrome.0.69i59j69i60l2j69i59j69i60l2j69i59.3382j0j4&sourceid=chrome&ie=UTF-8#"
+            target="_blank"
+          >
+            <img src={googleLogo} alt="" className="header__googleLogo" />
+          </IconButton>
+          <IconButton
+            href="https://www.facebook.com/goadentalstudio"
+            target="_blank"
+          >
+            <Facebook className="header__icon" />
           </IconButton>
           <IconButton>
-            <Facebook className="header__icon" />
+            <Room className="header__icon" />
           </IconButton>
           <IconButton>
             <ContactMail className="header__icon" />

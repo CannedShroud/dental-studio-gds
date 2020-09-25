@@ -7,7 +7,7 @@
   min-width: 300px;
   margin: 10px;
   border-radius: 10px;
-  background-color: rgb(253, 27, 27);
+  background-color: rgb(74, 100, 148);
   transition: all 0.2s ease-in-out;
   padding-bottom: 40px;
   justify-content: space-evenly;
@@ -29,4 +29,8 @@
 
 .card__title {
   margin-bottom: 10px;
+}
+
+.card__headline > h1 > .MuiSvgIcon-root {
+  font-size: 40px !important;
 }

@@ -1,24 +1,44 @@
 import React from "react";
 import "./Home.css";
 import Header from "./Header";
-import Footer from "./Footer";
 import chair from "./chair2.jpg";
 import brandingLogo from "./cannon-dental.png";
 import Cards from "./Cards";
 import Testemonial from "./Testemonial";
+import gdc1 from "./gdc1.jpg";
 
 function Home() {
   return (
     <div className="home">
       <Header />
       <div className="home__body">
-        <img src={chair} alt="Image" className="home__image" />
+        <img
+          src="https://raw.githubusercontent.com/CannedShroud/dental-studio/master/src/Assets/Images/dentalChair.jpg"
+          alt="Image"
+          className="home__image"
+        />
+        <div className="home__image"></div>
         <div className="home__container">
           <div className="home__landing">
             <div className="home__branding">
-              <img src={brandingLogo} alt="" />
-              {/* <h1>Goa Dental Studio</h1> */}
-              <h3>Giving you a smile you're happy to show off</h3>
+              <h1>Goa Dental Studio</h1>
+              <hr className="home__hr" />
+              <h3>Creating smiles for a lifetime</h3>
+            </div>
+            <div className="home__embeds">
+              <div className="home__facebook">
+                <iframe
+                  src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgoadentalstudio&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                  width="340"
+                  height="500"
+                  style={{ "border-radius": "10px" }}
+                  scrolling="no"
+                  frameborder="0"
+                  allowTransparency="true"
+                  allow="encrypted-media"
+                ></iframe>
+              </div>
+              <div className="home__google"></div>
             </div>
           </div>
           <div className="home__cards">
@@ -26,7 +46,7 @@ function Home() {
           </div>
           <div className="home__testemonials">
             <div className="home__testemonialsTitle">
-              <h1>Testemonials</h1>
+              <h1>Testimonials</h1>
             </div>
             <div className="home__testemonialCards">
               <Testemonial
@@ -50,7 +70,7 @@ function Home() {
                 name="Joseph Seitz"
                 location="Location: AUSTRALIA"
                 body="I was missing four upper teeth and my other teeth were not in the best condition. In order for local denists to leave me without 'dentures' it would have put me into great debt, therefore in February of this year I decided to take a risk; I went on a great holiday and had my teeth fixed! All up I had ten crowns, over three bridges, a root canal treatment and tooth whitening performed by Dr Mahi Desai. I was able to spend two weeks at the most beautiful beaches in India at Calangute, in Goa, and get my mouth looking and feeling great all well under budget.
-The care and attention received from Dr Desai and her staff would put most Australian Dentists to shame. I would highly recommend Goa Dental Studio to anyone interested in having any dental work done, it was a thouroughly enjoyable experience."
+                The care and attention received from Dr Desai and her staff would put most Australian Dentists to shame. I would highly recommend Goa Dental Studio to anyone interested in having any dental work done, it was a thouroughly enjoyable experience."
                 treatment="FULL ARCH REHABILITATION"
                 image="http://goadentalstudio.com/images/joseph-seitz.jpg"
               />
@@ -58,14 +78,15 @@ The care and attention received from Dr Desai and her staff would put most Austr
                 name="Burnley Lancs"
                 location="Location: England"
                 body="I visited the dentist here in Goa, originally just for an estimate for my top teeth.
-
               But the care, attention and expertise… I was amazed with not to mention the price. I found that I could afford to have them done this year..And I am going home with beautiful white teeth. I cannot emphasize enough how pleased I am and will recommend this dentist to anyone."
               />
             </div>
           </div>
+          <div className="home__map">
+            
+          </div>
         </div>
       </div>
-      {/* <Footer /> */}
     </div>
   );
 }
