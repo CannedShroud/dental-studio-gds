@@ -6,6 +6,7 @@
   flex-grow: 1;
   min-width: 300px;
   margin: 10px;
+  margin-left: 20px;
   border-radius: 10px;
   background-color: rgb(74, 100, 148);
   transition: all 0.2s ease-in-out;

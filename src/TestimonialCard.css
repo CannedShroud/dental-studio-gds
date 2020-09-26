@@ -1,0 +1,36 @@
+.testimonialCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 40px;
+  position: relative;
+  width: 40vw;
+  padding: 2vw;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #efefef;
+}
+
+.testimonialCard__body {
+  display: flex;
+  margin-bottom: 5%;
+}
+.testimonialCard__body > p {
+    margin: auto;
+    margin-left: 1vw;
+}
+.testimonialCard__avatar {
+  width: 5vw !important;
+  height: 5vw !important;
+  float: left;
+}
+.testimonialCard__details {
+  text-align: center;
+}
+
+@media screen and (max-width: 420px) {
+  .testimonialCard {
+    width: 100%;
+  }
+}
