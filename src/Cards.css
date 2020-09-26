@@ -3,7 +3,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   min-height: 350px;
-  margin: 20px;
+  /* margin: 20px; */
 }
 .card__action {
   position: relative;

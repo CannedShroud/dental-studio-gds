@@ -1,11 +1,9 @@
 import React from "react";
 import "./Home.css";
 import Header from "./Header";
-import chair from "./chair2.jpg";
-import brandingLogo from "./cannon-dental.png";
 import Cards from "./Cards";
 import Testemonial from "./Testemonial";
-import gdc1 from "./gdc1.jpg";
+import Clogo from "./cannon-dental.png";
 
 function Home() {
   return (
@@ -17,20 +15,19 @@ function Home() {
           alt="Image"
           className="home__image"
         />
-        <div className="home__image"></div>
         <div className="home__container">
           <div className="home__landing">
             <div className="home__branding">
+              {/* <img src={Clogo} alt="" /> */}
               <h1>Goa Dental Studio</h1>
-              <hr className="home__hr" />
               <h3>Creating smiles for a lifetime</h3>
             </div>
             <div className="home__embeds">
               <div className="home__facebook">
                 <iframe
                   src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgoadentalstudio&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                  width="340"
-                  height="500"
+                  width="100%"
+                  height="100%"
                   style={{ "border-radius": "10px" }}
                   scrolling="no"
                   frameborder="0"
@@ -58,7 +55,7 @@ function Home() {
                 image="http://goadentalstudio.com/images/vivienne-green.jpg"
                 treatment="Whatever dunno"
               />
-              <Testemonial
+            <Testemonial
                 name="Marianne Hardy"
                 location="Location: Bermondsey, UK"
                 body="I owe it all to you Dr. Mahi & the fantastic job you have done over the last 3 years, for my perfect smile. As you know when I first came to see you, I was so nervous, my teeth were in a right old state. You put me at ease & worked your magic.
@@ -66,7 +63,7 @@ function Home() {
                 image="http://goadentalstudio.com/images/marianne-hardy.jpg"
                 treatment="PORCELAIN VENEERS"
               />
-              <Testemonial
+            {/*<Testemonial
                 name="Joseph Seitz"
                 location="Location: AUSTRALIA"
                 body="I was missing four upper teeth and my other teeth were not in the best condition. In order for local denists to leave me without 'dentures' it would have put me into great debt, therefore in February of this year I decided to take a risk; I went on a great holiday and had my teeth fixed! All up I had ten crowns, over three bridges, a root canal treatment and tooth whitening performed by Dr Mahi Desai. I was able to spend two weeks at the most beautiful beaches in India at Calangute, in Goa, and get my mouth looking and feeling great all well under budget.
@@ -79,11 +76,8 @@ function Home() {
                 location="Location: England"
                 body="I visited the dentist here in Goa, originally just for an estimate for my top teeth.
               But the care, attention and expertise… I was amazed with not to mention the price. I found that I could afford to have them done this year..And I am going home with beautiful white teeth. I cannot emphasize enough how pleased I am and will recommend this dentist to anyone."
-              />
+              /> */}
             </div>
-          </div>
-          <div className="home__map">
-            
           </div>
         </div>
       </div>

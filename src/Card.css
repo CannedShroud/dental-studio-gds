@@ -1,7 +1,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  padding: 40px;
+  padding: 20px;
   flex: 0.3;
   flex-grow: 1;
   min-width: 300px;
@@ -33,4 +33,14 @@
 
 .card__headline > h1 > .MuiSvgIcon-root {
   font-size: 40px !important;
+}
+
+@media screen and (max-width: 420px) {
+  .card {
+    padding: 10px;
+  }
+  .card:hover {
+    background-color: white;
+    color: red;
+  }
 }

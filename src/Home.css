@@ -1,6 +1,10 @@
+html,
+body {
+  height: 100%;
+}
 .home {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 .home__body {
   display: flex;
@@ -8,11 +12,13 @@
   width: 100%;
 }
 .home__image {
-  object-fit: fill;
-  background-repeat: no-repeat;
   position: absolute;
-  top: 60;
+  top: 0;
+  width: 100%;
+  max-height: 90%;
   z-index: -1;
+  object-fit: cover;
+  overflow: auto;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 .home__container {
@@ -28,25 +34,28 @@
   display: flex;
   width: 100%;
   height: 100%;
-  margin: auto;
-  justify-content: space-around;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .home__branding {
-  backdrop-filter: blur(5px);
-  height: 50%;
-  width: 50%;
-  margin: auto;
-  justify-content: space-evenly;
+  flex: 0.7;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  width: 80%;
+  padding: 20px;
+  margin-top: 10px;
+  backdrop-filter: blur(5px);
   background-image: radial-gradient(
     ellipse,
     rgba(255, 0, 0, 0.5),
     rgba(0, 0, 0, 0)
   );
-  /* background-color: rgba(255, 255, 255, 0.3); */
   border-radius: 10px;
-  min-height: 500px;
+  max-height: 700px;
+  max-width: 900px;
 }
 .home__branding > img {
   object-fit: contain;
@@ -55,7 +64,7 @@
 .home__branding > h1 {
   color: rgb(255, 255, 255);
   font-family: "Lato", sans-serif;
-  font-size: 90px;
+  font-size: 300%;
   text-align: center;
 }
 
@@ -63,53 +72,70 @@
   color: rgb(255, 255, 255);
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-size: 50px;
+  font-size: 2vw;
   font-weight: 100;
 }
-
-.home__cards {
-  margin: 30px;
+.home__facebook {
+  flex: 0.3;
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+  margin-top: 0px;
+  min-height: 50vh;
+  height: 100%;
+  width: 100%;
 }
 
 .home__testemonials {
-  margin: 50px;
-  margin-top: 100px;
+  margin-top: 10%;
 }
 
 .home__testemonialsTitle {
   background-image: radial-gradient(
     circle,
-    rgb(218, 218, 218),
+    rgb(255, 222, 39),
     rgba(1, 1, 1, 0)
   );
-  padding: 20px;
-  backdrop-filter: blur(10px);
-  margin-bottom: 80px;
 }
 
 .home__testemonialsTitle > h1 {
   color: white;
   text-align: center;
   font-family: "Great Vibes", cursive;
-  font-size: 60px;
+  font-size: 6vw;
   font-weight: 100;
 }
 .home__testemonialCards {
   display: flex;
-  width: 100%;
   justify-content: space-evenly;
-  height: 100%;
   flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
 }
+@media screen and (max-width: 420px) {
+  .home__image {
+    display: none;
+  }
 
-.home__facebook {
-  margin: 20px;
-  border-radius: 20px;
-  background-color: white;
-  padding: 20px;
-  margin-top: 0px;
-}
-.home__hr{
-  width: 90%;
-  display: none;
+  .home__body {
+    background-image: radial-gradient(circle, purple, #ff8922);
+  }
+  .home__branding {
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .home__branding > h1 {
+    font-size: 10vw;
+    margin-bottom: 5%;
+  }
+  .home__branding > h3 {
+    font-size: 4vw;
+  }
+  .home__landing {
+    display: flex;
+    justify-content: center;
+  }
+  .home__facebook {
+    display: none;
+  }
 }

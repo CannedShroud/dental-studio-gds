@@ -6,7 +6,9 @@ import { Avatar } from "@material-ui/core";
 function Testemonial({ name, location, body, image, treatment }) {
   return (
     <div className="testemonial">
-      <Avatar src={image} className="testemonial__avatar" />
+      <div className="testemonial__avatarDiv">
+        <Avatar src={image} className="testemonial__avatar" />
+      </div>
       <div className="testemonial__container">
         <div className="testemonial__title">
           <h1>{name}</h1>

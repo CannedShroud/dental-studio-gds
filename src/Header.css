@@ -1,9 +1,7 @@
 .header {
   background-image: linear-gradient(to bottom, rgb(200, 0, 0), red);
-  height: 70px;
+  min-height: 10vh;
   display: flex;
-  position: sticky;
-  top: 0;
   justify-content: space-between;
   flex-wrap: wrap;
   z-index: 100;
@@ -13,55 +11,54 @@
 }
 .header__left {
   display: flex;
+  justify-content: space-evenly;
 }
 .header__logo {
   object-fit: contain;
-  max-width: 71px;
+  max-height: 10vh;
 }
 .header__title {
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: 20px;
   color: white;
+  display: flex;
+  justify-content: center;
 }
 .header__title > h1 {
-  /* font-family: "Pacifico", cursive; */
-  /* font-family: "Great Vibes", cursive; */
   font-family: "Roboto Slab", serif;
   color: white;
   font-weight: 100;
-  font-size: 45px;
-  margin-bottom: auto;
-  margin-top: auto;
+  margin: auto;
+  margin-left: 2vw;
 }
 
 .header__right {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: auto;
+  margin-right: 0;
 }
 .header__nav {
   display: flex;
+  justify-content: space-between;
 }
 .header__navitem > h3 {
   font-family: "Lato", sans-serif;
   color: white;
-  padding: 20px;
-}
-.header__icons {
-  margin: auto;
-  margin-right: 20px;
+  padding: 1vw;
 }
 .header__icon {
   position: relative;
   right: 0;
   color: white !important;
-  margin-top: 5px;
   padding-left: 7px;
   padding-right: 7px;
 }
-.header__googleLogo{
+.header__googleLogo {
   width: 20px;
-  margin-top: 5px;
+}
+
+@media screen and (max-width: 420px) {
+  .header__right {
+    display: none;
+  }
 }
