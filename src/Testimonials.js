@@ -23,7 +23,7 @@ function Testimonials() {
         image="http://goadentalstudio.com/images/john-lindsey.jpg"
         body="The treatment was amazing. Gave me the smile I have always wanted. Cant believe the difference."
       />
-      <TestimonialCard
+      {/* <TestimonialCard
         name="John Burke and Russel Gray"
         image="http://goadentalstudio.com/images/russel-gray-and-john-burke.jpg"
         body="Goa is a truly wonderful place to holiday. To combine extensive dental work at the same time is amazing. After some research we discovered the wonderful GOA DENTAL STUDIO.
@@ -35,7 +35,7 @@ function Testimonials() {
       If you are considering any dental work we both highly recommend this true professional. WE simply cannot praise Dr Mahi enough.
       
       If you need reassurance of what can only be described as a remarkable experience which you can arrange from the UK, you can get in touch with us. We live in Warrington and have added our phone no: 01925 852877."
-      />
+      /> */}
     </div>
   );
 }

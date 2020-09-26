@@ -132,4 +132,7 @@ body {
   .home__facebook {
     display: none;
   }
+  .home__testimonials {
+    background-image: none;
+  }
 }
