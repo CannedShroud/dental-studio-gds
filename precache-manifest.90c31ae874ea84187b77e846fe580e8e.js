@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1e7d29190c8cba75be48c386e52f8a82",
+    "revision": "eaf3672a7f9089e40c36555ac2d6c2b7",
     "url": "/dental-studio-gds/index.html"
   },
   {
-    "revision": "0daa1d9d7903ba8477eb",
-    "url": "/dental-studio-gds/static/css/main.44b48949.chunk.css"
+    "revision": "faff38038d19800a7e57",
+    "url": "/dental-studio-gds/static/css/main.d5f335d7.chunk.css"
   },
   {
     "revision": "bab9d8a156db8c177b41",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dental-studio-gds/static/js/2.a58ff12d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0daa1d9d7903ba8477eb",
-    "url": "/dental-studio-gds/static/js/main.8350d0d5.chunk.js"
+    "revision": "faff38038d19800a7e57",
+    "url": "/dental-studio-gds/static/js/main.0a5814a8.chunk.js"
   },
   {
     "revision": "9874593ed5085916b0d1",
