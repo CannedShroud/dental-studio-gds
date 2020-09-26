@@ -6,6 +6,9 @@ body {
   width: 100%;
   height: 100%;
 }
+.home__mobfb {
+  display: none;
+}
 .home__body {
   display: flex;
   height: 100%;
@@ -110,12 +113,26 @@ body {
   .home__image {
     display: none;
   }
-
+  .home__mobfb {
+    display: flex;
+    background-color: #fff;
+    margin: auto;
+    width: 90%;
+    margin-top: 1vh;
+    border-radius: 10px;
+  }
+  .home__mobfbImage {
+    height: 10vh;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+  }
   .home__body {
     background-image: radial-gradient(circle, purple, #ff8922);
   }
   .home__branding {
     backdrop-filter: blur(5px);
+    margin: auto;
     background-color: rgba(255, 255, 255, 0.5);
   }
   .home__branding > h1 {
@@ -127,7 +144,7 @@ body {
   }
   .home__landing {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
   }
   .home__facebook {
     display: none;

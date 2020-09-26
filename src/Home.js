@@ -9,16 +9,30 @@ function Home() {
     <div className="home">
       <Header />
       <div className="home__body">
-        <img
-          src="https://raw.githubusercontent.com/CannedShroud/dental-studio/master/src/Assets/Images/dentalChair.jpg"
-          alt="Image"
-          className="home__image"
-        />
+        <div
+          href="https://www.facebook.com/goadentalstudio"
+          style={{ display: "block" }}
+        >
+          <a href="https://ww.facebook.co/goadentalstudio">
+            <img
+              src="https://raw.githubusercontent.com/CannedShroud/dental-studio/master/src/Assets/Images/dentalChair.jpg"
+              alt="Image"
+              className="home__image"
+            />
+          </a>
+        </div>
         <div className="home__container">
           <div className="home__landing">
             <div className="home__branding">
               <h1>Goa Dental Studio</h1>
               <h3>Creating smiles for a lifetime</h3>
+            </div>
+            <div className="home__mobfb">
+              <img
+                src="https://about.fb.com/wp-content/uploads/2019/11/facebook_wordmark.gif"
+                alt=""
+                className="home__mobfbImage"
+              />
             </div>
             <div className="home__embeds">
               <div className="home__facebook">
