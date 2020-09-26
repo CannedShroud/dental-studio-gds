@@ -3,6 +3,7 @@ import "../Styles/Cards.css";
 import Card from "./Card";
 import { Room, PhotoCamera, Schedule } from "@material-ui/icons";
 import { Button } from "@material-ui/core";
+import { Link } from "react-router-dom";
 
 function Cards() {
   return (
@@ -13,9 +14,11 @@ function Cards() {
         description="A few of our cases and work done."
         action=""
         button={
-          <Button variant="contained" className="card__action">
-            See More
-          </Button>
+          <Link to="/beforeafter" style={{ textDecoration: "none" }}>
+            <Button variant="contained" className="card__action">
+              See More
+            </Button>
+          </Link>
         }
       />
       <Card
@@ -24,9 +27,15 @@ function Cards() {
         description="Street address and directions to see us"
         action=""
         button={
-          <Button variant="contained" className="card__action">
-            FIND US
-          </Button>
+          <a
+            href="https://www.google.com/maps/place/Goa+Dental+Studio/@15.5295082,73.7637537,15z/https://www.google.com/maps/place/Goa+Dental+Studio/@15.5295082,73.7637537,15z/data=!4m2!3m1!1s0x0:0x1e866e0e73a2f475?sa=X&ved=2ahUKEwi1g-_VxYfsAhVq8HMBHToSBHEQ_BIwCnoECBoQCA"
+            target="_blank"
+            style={{ textDecoration: "none" }}
+          >
+            <Button variant="contained" className="card__action">
+              FIND US
+            </Button>
+          </a>
         }
       />
       <Card
@@ -35,9 +44,11 @@ function Cards() {
         description={["Monday-Saturday ", <br />, "9:00AM to 5:00PM"]}
         action=""
         button={
-          <Button variant="contained" className="card__action">
-            Contact Us
-          </Button>
+          <Link to="/contact" style={{ textDecoration: "none" }}>
+            <Button variant="contained" className="card__action">
+              Contact Us
+            </Button>
+          </Link>
         }
       />
     </div>

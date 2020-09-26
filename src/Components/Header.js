@@ -4,6 +4,7 @@ import React from "react";
 import "../Styles/Header.css";
 import logo from "../Assets/Images/logo.png";
 import googleLogo from "../Assets/Images/googleLogo.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -16,15 +17,26 @@ function Header() {
       </div>
       <div className="header__right">
         <div className="header__nav">
-          <div className="header__navitem">
-            <h3>ABOUT US</h3>
-          </div>
-          <div className="header__navitem">
-            <h3>TESTIMONIALS</h3>
-          </div>
-          <div className="header__navitem">
-            <h3>CONTACT US</h3>
-          </div>
+          <Link to="/services" style={{ textDecoration: "none" }}>
+            <div className="header__navitem">
+              <h3>TREATMENTS</h3>
+            </div>
+          </Link>
+          <Link to="/about" style={{ textDecoration: "none" }}>
+            <div className="header__navitem">
+              <h3>ABOUT US</h3>
+            </div>
+          </Link>
+          <Link to="/testimonials" style={{ textDecoration: "none" }}>
+            <div className="header__navitem">
+              <h3>TESTIMONIALS</h3>
+            </div>
+          </Link>
+          <Link to="/contact" style={{ textDecoration: "none" }}>
+            <div className="header__navitem">
+              <h3>CONTACT US</h3>
+            </div>
+          </Link>
         </div>
         <div className="header__icons">
           <IconButton
@@ -39,12 +51,24 @@ function Header() {
           >
             <Facebook className="header__icon" />
           </IconButton>
-          <IconButton>
-            <Room className="header__icon" />
-          </IconButton>
-          <IconButton>
-            <ContactMail className="header__icon" />
-          </IconButton>
+          <a
+            href="https://www.google.com/maps/place/Goa+Dental+Studio/@15.5295082,73.7637537,15z/https://www.google.com/maps/place/Goa+Dental+Studio/@15.5295082,73.7637537,15z/data=!4m2!3m1!1s0x0:0x1e866e0e73a2f475?sa=X&ved=2ahUKEwi1g-_VxYfsAhVq8HMBHToSBHEQ_BIwCnoECBoQCA"
+            style={{ textDecoration: "none" }}
+            target="_blank"
+          >
+            <IconButton>
+              <Room className="header__icon" />
+            </IconButton>
+          </a>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=mahidesai@gmail.com&su=GoaDentalStudio&body=BODY"
+            style={{ textDecoration: "none" }}
+            target="_blank"
+          >
+            <IconButton>
+              <ContactMail className="header__icon" />
+            </IconButton>
+          </a>
         </div>
       </div>
     </div>
