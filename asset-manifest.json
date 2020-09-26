@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/dental-studio-gds/static/css/main.9163b695.chunk.css",
-    "main.js": "/dental-studio-gds/static/js/main.55a77cea.chunk.js",
-    "main.js.map": "/dental-studio-gds/static/js/main.55a77cea.chunk.js.map",
+    "main.css": "/dental-studio-gds/static/css/main.44b48949.chunk.css",
+    "main.js": "/dental-studio-gds/static/js/main.8350d0d5.chunk.js",
+    "main.js.map": "/dental-studio-gds/static/js/main.8350d0d5.chunk.js.map",
     "runtime-main.js": "/dental-studio-gds/static/js/runtime-main.b26be7a3.js",
     "runtime-main.js.map": "/dental-studio-gds/static/js/runtime-main.b26be7a3.js.map",
-    "static/js/2.91e3ad7b.chunk.js": "/dental-studio-gds/static/js/2.91e3ad7b.chunk.js",
-    "static/js/2.91e3ad7b.chunk.js.map": "/dental-studio-gds/static/js/2.91e3ad7b.chunk.js.map",
+    "static/js/2.a58ff12d.chunk.js": "/dental-studio-gds/static/js/2.a58ff12d.chunk.js",
+    "static/js/2.a58ff12d.chunk.js.map": "/dental-studio-gds/static/js/2.a58ff12d.chunk.js.map",
     "index.html": "/dental-studio-gds/index.html",
-    "precache-manifest.b0dd9ab4e60dde63ba475a133963e4a0.js": "/dental-studio-gds/precache-manifest.b0dd9ab4e60dde63ba475a133963e4a0.js",
+    "precache-manifest.b252b982f951fa8f75e7a224435eb4ec.js": "/dental-studio-gds/precache-manifest.b252b982f951fa8f75e7a224435eb4ec.js",
     "service-worker.js": "/dental-studio-gds/service-worker.js",
-    "static/css/main.9163b695.chunk.css.map": "/dental-studio-gds/static/css/main.9163b695.chunk.css.map",
-    "static/js/2.91e3ad7b.chunk.js.LICENSE.txt": "/dental-studio-gds/static/js/2.91e3ad7b.chunk.js.LICENSE.txt",
+    "static/css/main.44b48949.chunk.css.map": "/dental-studio-gds/static/css/main.44b48949.chunk.css.map",
+    "static/js/2.a58ff12d.chunk.js.LICENSE.txt": "/dental-studio-gds/static/js/2.a58ff12d.chunk.js.LICENSE.txt",
     "static/media/googleLogo.png": "/dental-studio-gds/static/media/googleLogo.d82fb317.png",
     "static/media/logo.png": "/dental-studio-gds/static/media/logo.1c844c4e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b26be7a3.js",
-    "static/js/2.91e3ad7b.chunk.js",
-    "static/css/main.9163b695.chunk.css",
-    "static/js/main.55a77cea.chunk.js"
+    "static/js/2.a58ff12d.chunk.js",
+    "static/css/main.44b48949.chunk.css",
+    "static/js/main.8350d0d5.chunk.js"
   ]
 }

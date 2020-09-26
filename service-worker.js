@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dental-studio-gds/precache-manifest.b0dd9ab4e60dde63ba475a133963e4a0.js"
+  "/dental-studio-gds/precache-manifest.b252b982f951fa8f75e7a224435eb4ec.js"
 );
 
 self.addEventListener('message', (event) => {
